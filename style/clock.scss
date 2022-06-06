@@ -1,0 +1,12 @@
+.timepiece {
+    &__clock {
+        @include flexCenter;
+        flex-direction: column;
+    }
+    &__calendar-date {
+        font-size: 1.25rem;
+    }
+    &__time {
+        font-size: 6.25rem;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Timepiece</title>
+</head>
+
+<body>
+    <div class="timepiece">
+        <section class="section timepiece__clock">
+            <div class="timepiece__calendar-date"></div>
+            <div class="timepiece__time"></div>
+        </section>
+        <section class="section timepiece__stopwatchWrapper">
+            <div class="timepiece__stopwatch">
+                <div class="stopwatch__date-field">
+                    <span class="stopwatch__hour">00</span>
+                    <span>:</span>
+                    <span class="stopwatch__minut">00</span>
+                    <span>:</span>
+                    <span class="stopwatch__second">00</span>
+                    <span>:</span>
+                    <span class="stopwatch__milisecond">00</span>
+                </div>
+                <div class="timepiece__stopwatch-btns">
+                    <input type="button" value="start" class="btn timepiece__stopwatch-btn_start">
+                    <input type="button" value="loop" class="btn timepiece__stopwatch-btn_loop">
+                    <input type="button" value="stop" class="btn timepiece__stopwatch-btn_stop">
+                    <input type="button" value="reset" class="btn timepiece__stopwatch-btn_reset">
+                </div>
+            </div>
+            <div class="loop-block"></div>
+        </section>
+        <section class="section timepiece__timer">
+            <div class="timer-settings">
+                <h1>25</h1>
+                <h2>minutes</h2>
+                <div class="timer-settings__buttons">
+                    <input type="button" value="+" class="timer-settings__button btn">
+                    <input type="button" value="-" class="timer-settings__button btn">
+                </div>
+            </div>
+            <div class="timepiece__timer-body">
+                <div class="timepiece__timer-field">
+                    <span class="timepiece__timer-minute">00</span>
+                    <span>:</span>
+                    <span class="timepiece__timer-second">00</span>
+                </div>
+                <div class="timepiece__timer-btns">
+                    <input type="button" value="start" class="btn timepiece__timer-btn_start">
+                    <input type="button" value="stop" class="btn timepiece__timer-btn_stop">
+                    <input type="button" value="reset" class="btn timepiece__timer-btn_reset">
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <script src="./js/clock.js"></script>
+    <script src="./js/Stopwatch.js"></script>
+    <script src="./js/timer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.timepiece {
+    &__stopwatch {
+        height: 80%;
+        min-width: 31.5rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .stopwatch__date-field {
+            flex: .3;
+            font-size: 3.5rem;
+        }
+    }
+
+    &__stopwatch-btns {
+        position: relative;
+        left: 12%;
+        flex: .3;
+    }
+}
+
+.loop-block {
+    height: 80%;
+    min-width: 19rem;
+    padding: 0 5rem;
+    border: 1px solid $white;
+    border-radius: 10px;
+}

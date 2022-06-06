@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Orbitron-Regular";
+    src: url(../font/Orbitron-Regular.ttf);
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron-Regular";
+    color: $mainColor;
+}
+
+.timepiece {
+    height: 100vh;
+    min-width: 55rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: $mainBgColor;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: .3;
+    border: 1px solid $sectionBorder;
+}
+
+.btn {
+    width: 5rem;
+    padding: .5rem 0;
+    background-color: transparent;
+    border: 1px solid $btnBorder;
+    border-radius: .625rem;
+    font-size: 1.25rem;
+
+    &:focus {
+        color: $mainColor;
+    }
+    &:not(:last-child){
+        margin: 0 .5rem 0;
+    }
+}

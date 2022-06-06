@@ -1,0 +1,14 @@
+// Color
+$mainColor: #0e798f;
+$mainBgColor: #00000f;
+$btnBorder: #f1f1f1;
+$sectionBorder: #24313f;
+$white: #fff;
+
+
+// Mixin
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

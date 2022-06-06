@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Orbitron-Regular";
+  src: url(../font/Orbitron-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Orbitron-Regular";
+  color: #0e798f;
+}
+
+.timepiece {
+  height: 100vh;
+  min-width: 55rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #00000f;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+  border: 1px solid #24313f;
+}
+
+.btn {
+  width: 5rem;
+  padding: .5rem 0;
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+  border-radius: .625rem;
+  font-size: 1.25rem;
+}
+
+.btn:focus {
+  color: #0e798f;
+}
+
+.btn:not(:last-child) {
+  margin: 0 .5rem 0;
+}
+
+.timepiece__clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__calendar-date {
+  font-size: 1.25rem;
+}
+
+.timepiece__time {
+  font-size: 6.25rem;
+}
+
+.timepiece__stopwatch {
+  height: 80%;
+  min-width: 31.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__stopwatch .stopwatch__date-field {
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+  font-size: 3.5rem;
+}
+
+.timepiece__stopwatch-btns {
+  position: relative;
+  left: 12%;
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+}
+
+.loop-block {
+  height: 80%;
+  min-width: 19rem;
+  padding: 0 5rem;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.timepiece .timer-settings {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__timer-body {
+  width: 24.25rem;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__timer-field {
+  font-size: 5.625rem;
+}
+
+.timer-settings h1 {
+  font-size: 5.625rem;
+}
+
+.timer-settings__buttons {
+  padding: 1rem 0 0;
+}
+
+.timer-settings__button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border-radius: 30%;
+  cursor: pointer;
+}

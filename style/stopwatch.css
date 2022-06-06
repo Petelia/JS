@@ -1,0 +1,37 @@
+.timepiece__stopwatch {
+  height: 80%;
+  min-width: 505px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__stopwatch .stopwatch__date-field {
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+  font-size: 3.5rem;
+}
+
+.timepiece__stopwatch-btns {
+  position: relative;
+  left: 12%;
+  -webkit-box-flex: .3;
+      -ms-flex: .3;
+          flex: .3;
+}
+
+.loop-block {
+  height: 80%;
+  min-width: 300px;
+  padding: 0 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+}

@@ -1,0 +1,57 @@
+.timepiece .timer-settings {
+  height: 80%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__timer-body {
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.timepiece__timer-field {
+  font-size: 5.625rem;
+}
+
+.timer-settings h1 {
+  font-size: 5.625rem;
+}
+
+.timer-function > h1,
+.timer-time {
+  height: 50%;
+  font-size: 90px;
+}
+
+.timer-function-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timer-function-btn > * {
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  margin: 0 4%;
+  padding: 2px 0;
+  font-size: 25px;
+  text-align: center;
+  cursor: pointer;
+}
